@@ -40,6 +40,9 @@ Thumbs.db
 ######################
 tmp/*
 video/*
+node-webkit.app/*
+nwsnapshot
+
 *.gif
 *.jpg
 *.jpeg

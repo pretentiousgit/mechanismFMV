@@ -38,8 +38,8 @@ Thumbs.db
 
 # Media 			 #
 ######################
-tmp/*
-video/*
+public/tmp/*
+public/video/*
 node-webkit.app/*
 nwsnapshot
 

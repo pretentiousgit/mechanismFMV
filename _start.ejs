@@ -1,0 +1,210 @@
+<script>
+
+function splashload(url){
+	// load the splash console
+	$('.container').html("<h1>Mechanism</h1><h2>Choose your game</h2><ul id='games'></ul>");
+	var skeleton
+	$.getJSON(url, function(data){
+		var i = 1;
+	    $.each(data, function(game, val){
+	    	$.each(val, function(name, obj){
+	    		skeleton = '<a id="'+name+'" class="game">'+name+'</a>';
+	    		$('#games').append(skeleton);
+	    		i++
+	    	})
+	    });
+	});
+}
+
+// load touchpoints
+function load_spots(name,game,spots){
+	var skeleton;
+	$('#controlSpots').html('');	
+	$('.sendVideo').removeClass('active');	
+	
+  	$.each(game[spots].exits, function( key, val){
+  		console.log("key "+key+" val "+ val);
+  		 $.each(val, function(ind,obj){
+  		 	console.log("ind "+ind+" obj "+ obj);
+  			console.log(game[spots].exits[key].room); 		
+	  			skeleton = $('<a class="sendVideo" style="">&nbsp;</a>');
+	          $(skeleton).attr('nextvid', game[spots].exits[key].room);
+	          $(skeleton).attr('delay', game[spots].exits[key].delay );
+	          $(skeleton).attr('game', name);
+	          $(skeleton).attr('colour', game[spots].exits[key].activate );
+	          $(skeleton).css('top', game[spots].exits[key].top );
+	          $(skeleton).css('left', game[spots].exits[key].left );
+	          $(skeleton).css('width', game[spots].exits[key].width );
+	          $(skeleton).css('height', game[spots].exits[key].height );
+	          $(skeleton).css('position','absolute');
+	          $(skeleton).css('z-index','1');
+	          $(skeleton).css('display', 'block' );	          	        
+  		})
+  		// load skeleton into controlspots once for each exit key
+  		$('#controlSpots').append(skeleton); 		
+	 })
+}
+
+// turn on and off touchpoint colours dynamically over time of video after delay.
+function activateTouchPoints(touch){
+	$(touch).each(function(){
+		var col = $(this).attr("colour")
+		$(this).toggleClass(col);
+	});
+}
+
+//if this video has been set to autoplay the next video in game_data, play the next video.
+function liveTrace(spotDelay){
+	var live = document.getElementsByClassName('visible')[0];
+		live.addEventListener('timeupdate', function(){
+			var now = live.currentTime;
+			var delayVar = $('.sendVideo').attr('delay');
+			// console.log("liveTrace "+ now +" "+ delayVar);	
+
+			if (now == live.duration &&live.hasAttribute("playnext") ) {
+				video_play(live.getAttribute("playnext"));
+				load_spots(live.getAttribute("playnext"));				
+				}
+
+			if (now > delayVar ){
+				$(".sendVideo").each(function(){
+					var col = $(this).attr("colour")
+					$(this).addClass(col);
+					$(this).removeClass('hidden');
+				});
+			}
+		})
+}
+
+// reveals a pre-loaded video and plays it. 
+// Calls liveTrace() because this is required for delayed touchpoints.
+function video_play(to_id){
+	var cur = document.getElementsByClassName('visible')[0];
+	var cur_id= cur.getAttribute('id');
+	var nxt = document.getElementById(to_id);
+	
+	console.log(cur_id +' this is cur within video_swap');
+	console.log(to_id+' play this');
+	console.log(cur_id+' now stopped ');
+	
+	if (cur_id != to_id){
+		nxt.classList.remove('hidden'); 
+		nxt.classList.add('visible');
+		if (!nxt.hasAttribute('playnext')){
+			nxt.setAttribute("loop","true");
+		}
+
+		cur.classList.add('hidden');
+		cur.classList.remove('visible'); // for use with selectors
+		if(cur.nodeName=='VIDEO'){
+		cur.load(); // reset to timecount 0
+		}
+		if (cur.hasAttribute("loop"))
+			{cur.removeAttribute("loop");}		
+
+		if(nxt.nodeName=='VIDEO'){
+			nxt.play();
+			liveTrace();
+		}
+		if(cur.nodeName=='VIDEO'){
+			cur.pause();
+		}
+	}	
+}
+
+
+// Socket connects
+socket.on('connect', function () {
+	socket.emit('role', 'control', function (error) {
+		if (!error) return;
+		  socket.disconnect();
+		  $('#connection').trigger('disconnected');
+		  message('There is already a control connected');
+		});
+});
+
+var url="/tmp/gamedata.json";
+splashload(url);
+
+</script>
+
+<div class="container">
+	<h1>Mechanism</h1>
+	<h2>Choose your game</h2>
+	<ul id='games'>
+	</ul>
+</div>
+
+<script>
+$.getJSON('/tmp/gamedata.json', function(data){
+	console.log(data);
+	var gamedata;
+	var gameID
+
+	$(document).on('click','.game', function(e){
+	 	gameID = $(this).attr('id');		
+		gamedata = data.games[gameID][0];
+		var datasize = Object.keys(gamedata).length;
+
+		console.log("gameID "+ gameID);
+
+		$('.container').html("<div id='controlSpots'></div><div id='videobox'></div><div id='spotDisplay'><a>Return To Menu</a></div>");	
+	
+		load_spots(gameID, gamedata,0);
+
+		// load video files
+		// this is how we find a room in a string of rooms
+		// var str = data.games[selected][0][0].urls.control; 
+		for(var i=0;i<datasize;i++){ 
+			var str = gamedata[i].urls.control;
+			var ext = str.substr((~-str.lastIndexOf(".") >>> 0) + 2);
+			var name2 = str.substr(0, str.lastIndexOf('.')) || str;
+			console.log(str);
+			if (ext=='webm'||ext=='mp4') {
+				var frame ="<video class='hidden' id=" + gamedata[i].urls.index +" poster="+ gamedata[i].urls.control_thumb +">"+
+				"<source src='"+ name2 +".ipad.mp4' type='video/mp4'/>"+
+				"<source src='"+ name2 +".webm' type='video/webm'/>"+
+		        "Your browser does not support the video tag."+
+		        "</video><br />";
+		      	$('#videobox').append(frame);
+	      	}
+	      	else{
+	      		var frame ="<img class='hidden' id="+ gamedata[i].urls.index +" src="+ gamedata[i].urls.control +" />";
+	      		$('#videobox').append(frame);
+	      	}
+	      	if (i==0){
+	      		$('#'+gamedata[i].urls.index).removeClass('hidden').addClass('visible');
+	      	}
+		}
+		var playFirst = document.getElementsByClassName('visible')[0];
+		if(playFirst.nodeName=='VIDEO'){
+			playFirst.play();
+		}
+
+
+	});
+
+	//play a game
+	$(document).on('click', '.sendVideo', function(e){
+		var nxtVid = $(this).attr('nextvid');
+		console.log(nxtVid);
+		video_play(nxtVid);
+		//wipe the current control spots out
+		$('#controlSpots').html('');
+		//get the next set of spots
+		load_spots(gameID, gamedata, nxtVid);
+		
+		//tell the ether what to get next
+		message('emitted \'' + nxtVid + '\'');
+	    socket.emit('control event', nxtVid);
+
+		return false;
+	});
+
+	//reload menu
+	$(document).on('click','#spotDisplay', function(e){
+		console.log("reload");
+		location.reload();
+	});
+});
+</script>

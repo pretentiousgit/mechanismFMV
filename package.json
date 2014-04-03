@@ -1,0 +1,42 @@
+{
+    "name": "screenperfect",
+    "main": "index.html",    
+    "node-main": "screenperfect.js",
+    "description": "screenPerfect serves paired client-control video via a NodeJS server installation to Chrome on desktop, and Android 4.1+ devices.",
+    "version": "0.0.1",
+
+    "dependencies": {
+        "express": "2.x.x",
+        "socket.io": "0.9.x",
+        "ejs": "0.8.x",
+        "wrench": "1.x",
+        "sugar": "1.3.x",
+        "forever": "0.10.x"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+    },
+    "keywords": [
+        "FMV",
+        "videogame",
+        "engine"
+    ],
+    "author": "Alex Leitch",
+    "window": {
+        "title": "screenPerfect",
+        "icon": "link.png",
+        "toolbar": true,
+        "frame": true,
+        "width": 1024,
+        "height": 720,
+        "position": "mouse",
+        "min_width": 400,
+        "min_height": 200,
+        "max_width": 800,
+        "max_height": 600
+    },
+    "webkit": {
+        "plugin": true
+    }
+}

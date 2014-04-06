@@ -1,54 +1,115 @@
-<script src="/js/client.js"></script>
-<% 
-	var gamedata = JSON.parse(app.locals.gamefile);
-	var datasize = Object.keys(gamedata).length;
-%>
+<script>
+var curGame;
+socket.on('connect', function(e) {
+  //on connection, tell the server what kind of client you are. This is a listener.
+  socket.emit('listener', function (error) {
+    if (!error) return;
+    socket.disconnect();
+    $('#connection').trigger('disconnected');
+
+    message('Server thinks only one listener can be connected'); // debug message
+  });
+});
+
+// reveals a pre-loaded video and plays it. 
+// Calls liveTrace() because this is required for delayed touchpoints.
+function video_play(to_id){
+  var cur = document.getElementsByClassName('visible')[0];
+  var cur_id= cur.getAttribute('id');
+  var nxt = document.getElementById(to_id);
+  
+  console.log(cur_id +' this is cur within video_swap');
+  console.log(to_id+' play this');
+  console.log(cur_id+' now stopped ');
+  
+  if (cur_id != to_id){
+    nxt.classList.remove('hidden'); 
+    nxt.classList.add('visible');
+    if (!nxt.hasAttribute('playnext')){
+      nxt.setAttribute("loop","true");
+    }
+
+    cur.classList.add('hidden');
+    cur.classList.remove('visible'); // for use with selectors
+    if(cur.nodeName=='VIDEO'){
+    cur.load(); // reset to timecount 0
+    }
+    if (cur.hasAttribute("loop"))
+      {cur.removeAttribute("loop");}    
+
+    if(nxt.nodeName=='VIDEO'){
+      nxt.play();
+      liveTrace();
+    }
+    if(cur.nodeName=='VIDEO'){
+      cur.pause();
+    }
+  } 
+}
+
+function loadvideos(load){
+  // reset container contents
+  $('.container').html("<div id='videobox'></div>");
+
+  //get the static json, which is _huge_. I could use a better way.
+  $.getJSON('/tmp/gamedata.json', function(data){
+    var e = load;
+    var game = data.games[e][0];
+    console.log(e);
+    var datasize = Object.keys(game).length;
+         for(var i=0;i<datasize;i++){ 
+          var str = game[i].urls.client;
+          var ext = str.substr((~-str.lastIndexOf(".") >>> 0) + 2);
+          var name2 = str.substr(0, str.lastIndexOf('.')) || str;
+          console.log('load element '+str);
+          if (ext=='webm'||ext=='mp4') {
+            var frame ="<video class='hidden' id=" + game[i].urls.index +" poster="+ game[i].urls.client_thumb +">"+
+            "<source src='"+ name2 +".ipad.mp4' type='video/mp4'/>"+
+            "<source src='"+ name2 +".webm' type='video/webm'/>"+
+                "Your browser does not support the video tag."+
+                "</video><br />";
+                $('#videobox').append(frame);
+              }
+              else{
+                var frame ="<img class='hidden' id="+ game[i].urls.index +" src="+ game[i].urls.client +" />";
+                $('#videobox').append(frame);
+              }
+              if (i==0){
+                $('#'+game[i].urls.index).removeClass('hidden').addClass('visible');
+              }
+        }
+        var playFirst = document.getElementsByClassName('visible')[0];
+        if(playFirst.nodeName=='VIDEO'){
+          playFirst.play();
+        }
+  })
+}
+
+
+</script>
+
 <div class="container">
-<div id='videobox'>
-	
-<% 
-	var st = gamedata[0].urls.client;
-	var ex = st.substr((~-st.lastIndexOf(".") >>> 0) + 2);
-  var name = st.substr(0, st.lastIndexOf('.')) || st;
-
-  if (ex!='png'||ex!='gif'||ex!='jpg'||ex!='jpeg') {
-      %>
-        <video class="visible" id="<%- gamedata[0].urls.index %>" poster="<%- gamedata[0].urls.control_thumb %>" loop="true" autoplay="true" />
-        <source src="<%- name %>.ipad.mp4" type="video/mp4"/>
-        <source src="<%- name %>.webm" type="video/webm" />
-        Your browser does not support the video tag.
-        </video>
-        <br />
-      <%
-      	}
-      	else{
-      	%>
-      	<img class="visible" ext="<%- ex %>" id="<%- gamedata[0].urls.index %>" src="<%- gamedata[0].urls.client %>" />
-     <%
- 	}
-	
-	for(var i=1;i<datasize;i++){ 
-		var str = gamedata[i].urls.client;
-		var ext = str.substr((~-str.lastIndexOf(".") >>> 0) + 2);
-    var name2 = str.substr(0, str.lastIndexOf('.')) || str;
-
-  if (ex!='png'||ex!='gif'||ex!='jpg'||ex!='jpeg') {
-      %>
-        <video class="hidden " id="<%- gamedata[i].urls.index %>" poster="<%- gamedata[i].urls.control_thumb %>" />
-        <source src="<%- name2 %>.ipad.mp4" type="video/mp4"/>
-        <source src="<%- name2 %>.webm" type="video/webm" />
-        Your browser does not support the video tag.
-        </video>
-        <br />
-      <%
-      	}
-      	else{
-      	%>
-      	<img class="hidden " id="<%- gamedata[i].urls.index %>" src="<%- gamedata[i].urls.client %>" />
-      	<%
-      	}     
-	}
-
-%>
+<div id="videobox"></div>
 </div>
-</div>
+
+<script>
+socket.on('control event', function(e) {
+  // connection passes server's current video number to listener clients
+    if (e){
+      console.log(e);
+      video_play(e);    
+    }
+});
+
+socket.on('load', function(e) {
+  // connection passes which game to load to clients
+  if (e){
+      loadvideos(e)
+      } 
+});
+
+socket.on('disconnect', function() {
+    console.log('i got disconnected');
+    $('.container').html("<div id='videobox'></div>");
+});
+</script>

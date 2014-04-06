@@ -3,9 +3,12 @@ var express = require('express'),
     path = require('path'),
     wrench = require('wrench'),
     exec = require('child_process').exec,
-    util = require('util'),
-    Files = {}, _hopper, fs = require('fs'),
+    util = require('util'),    
+    fs = require('fs'),
     eavesdropper = 0,
+    Files = {}, 
+    _hopper,
+    _game,
     json, app = express.createServer();
 
 require('sugar')
@@ -82,11 +85,6 @@ io.sockets.on('connection', function (socket) {
             return false;
         });
 
-        socket.on('load event', function(e){
-            console.log('load event ' + e);
-            res.render('control');
-        });
-        
         socket.on('setup event', function (e) {
             socket.broadcast.emit('setup event', e);
             console.log(e);
@@ -103,9 +101,15 @@ io.sockets.on('connection', function (socket) {
 
 		socket.on('listener', function (listener, e) {
 			eavesdropper++;
-			console.log('eavesdropper '+ eavesdropper+' connected, _hopper is '+ _hopper);
-			socket.broadcast.emit('announcement', 'eavesdropper '+ eavesdropper+' connected, _hopper is '+ _hopper);
+			console.log('eavesdropper '+ eavesdropper+' connected, _hopper is '+ _hopper);			
 		});
+
+        socket.on('load', function(e){
+            console.log('load' + e);
+            socket.broadcast.emit('load', e);
+            _game = e;
+            return false;
+        });
 
         socket.on('role', function (role, func) {
             console.log('socket assuming role ' + role); 
@@ -123,9 +127,9 @@ io.sockets.on('connection', function (socket) {
         //if the control disconnects then tell the clients.
         socket.on('disconnect', function () {
             if (!socket.control) { 
-                socket.broadcast.emit('announcement', 'eavesdropper has disconnected');
+                socket.broadcast.emit('announcement', 'eavesdropper has disconnected');                
                 return};
             control = false;
-            socket.broadcast.emit('announcement', 'control disconnected');
+            socket.broadcast.emit('disconnect', 'control disconnected');
         });
 });

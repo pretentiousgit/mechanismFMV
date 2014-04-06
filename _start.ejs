@@ -2,13 +2,13 @@
 
 function splashload(url){
 	// load the splash console
-	$('.container').html("<h1>Mechanism</h1><h2>Choose your game</h2><ul id='games'></ul>");
+	$('.container').html("<div id='titles'><h1>Mechanism</h1><h2>Choose your game</h2></div><ul id='games'></ul>");
 	var skeleton
 	$.getJSON(url, function(data){
 		var i = 1;
 	    $.each(data, function(game, val){
 	    	$.each(val, function(name, obj){
-	    		skeleton = '<a id="'+name+'" class="game">'+name+'</a>';
+	    		skeleton = "<a id='"+name+"' class='game round'><img src='/image/"+name+".gif'</a>";
 	    		$('#games').append(skeleton);
 	    		i++
 	    	})
@@ -27,7 +27,7 @@ function load_spots(name,game,spots){
   		 $.each(val, function(ind,obj){
   		 	console.log("ind "+ind+" obj "+ obj);
   			console.log(game[spots].exits[key].room); 		
-	  			skeleton = $('<a class="sendVideo" style="">&nbsp;</a>');
+	  			skeleton = $('<a class="sendVideo round" style="">&nbsp;</a>');
 	          $(skeleton).attr('nextvid', game[spots].exits[key].room);
 	          $(skeleton).attr('delay', game[spots].exits[key].delay );
 	          $(skeleton).attr('game', name);
@@ -112,6 +112,40 @@ function video_play(to_id){
 	}	
 }
 
+function loadvideos(load){
+  //get the static json, which is _huge_. I could use a better way.
+  $.getJSON('/tmp/gamedata.json', function(data){
+    var e = load;
+    var game = data.games[e][0];
+    console.log(e);
+    var datasize = Object.keys(game).length;
+         for(var i=0;i<datasize;i++){ 
+          var str = game[i].urls.control;
+          var ext = str.substr((~-str.lastIndexOf(".") >>> 0) + 2);
+          var name2 = str.substr(0, str.lastIndexOf('.')) || str;
+          console.log('load element '+str);
+          if (ext=='webm'||ext=='mp4') {
+            var frame ="<video class='hidden round' id=" + game[i].urls.index +" poster="+ game[i].urls.controls_thumb +">"+
+            "<source src='"+ name2 +".ipad.mp4' type='video/mp4'/>"+
+            "<source src='"+ name2 +".webm' type='video/webm'/>"+
+                "Your browser does not support the video tag."+
+                "</video><br />";
+                $('#videobox').append(frame);
+              }
+              else{
+                var frame ="<img class='hidden round' id="+ game[i].urls.index +" src="+ game[i].urls.control +" />";
+                $('#videobox').append(frame);
+              }
+              if (i==0){
+                $('#'+game[i].urls.index).removeClass('hidden').addClass('visible');
+              }
+        }
+        var playFirst = document.getElementsByClassName('visible')[0];
+        if(playFirst.nodeName=='VIDEO'){
+          playFirst.play();
+        }
+  })
+}
 
 // Socket connects
 socket.on('connect', function () {
@@ -129,10 +163,12 @@ splashload(url);
 </script>
 
 <div class="container">
+<div id='titles'>
 	<h1>Mechanism</h1>
 	<h2>Choose your game</h2>
 	<ul id='games'>
 	</ul>
+</div>
 </div>
 
 <script>
@@ -142,46 +178,22 @@ $.getJSON('/tmp/gamedata.json', function(data){
 	var gameID
 
 	$(document).on('click','.game', function(e){
-	 	gameID = $(this).attr('id');		
+		// set global game identifiers
+		gameID = $(this).attr('id');		
 		gamedata = data.games[gameID][0];
 		var datasize = Object.keys(gamedata).length;
 
 		console.log("gameID "+ gameID);
 
+		//tell the ether what to get next
+		message('game ' + gameID );
+		socket.emit('load', gameID);
+
 		$('.container').html("<div id='controlSpots'></div><div id='videobox'></div><div id='spotDisplay'><a>Return To Menu</a></div>");	
 	
 		load_spots(gameID, gamedata,0);
-
-		// load video files
-		// this is how we find a room in a string of rooms
-		// var str = data.games[selected][0][0].urls.control; 
-		for(var i=0;i<datasize;i++){ 
-			var str = gamedata[i].urls.control;
-			var ext = str.substr((~-str.lastIndexOf(".") >>> 0) + 2);
-			var name2 = str.substr(0, str.lastIndexOf('.')) || str;
-			console.log(str);
-			if (ext=='webm'||ext=='mp4') {
-				var frame ="<video class='hidden' id=" + gamedata[i].urls.index +" poster="+ gamedata[i].urls.control_thumb +">"+
-				"<source src='"+ name2 +".ipad.mp4' type='video/mp4'/>"+
-				"<source src='"+ name2 +".webm' type='video/webm'/>"+
-		        "Your browser does not support the video tag."+
-		        "</video><br />";
-		      	$('#videobox').append(frame);
-	      	}
-	      	else{
-	      		var frame ="<img class='hidden' id="+ gamedata[i].urls.index +" src="+ gamedata[i].urls.control +" />";
-	      		$('#videobox').append(frame);
-	      	}
-	      	if (i==0){
-	      		$('#'+gamedata[i].urls.index).removeClass('hidden').addClass('visible');
-	      	}
-		}
-		var playFirst = document.getElementsByClassName('visible')[0];
-		if(playFirst.nodeName=='VIDEO'){
-			playFirst.play();
-		}
-
-
+		loadvideos(gameID);
+		return false;
 	});
 
 	//play a game
@@ -205,6 +217,7 @@ $.getJSON('/tmp/gamedata.json', function(data){
 	$(document).on('click','#spotDisplay', function(e){
 		console.log("reload");
 		location.reload();
+		message('reload');
 	});
 });
 </script>

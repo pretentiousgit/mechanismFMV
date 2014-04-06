@@ -241,7 +241,7 @@ input[type="submit"] {
 
 button[disabled],
 input[disabled] {
-  cursor: default;
+  cursor: pointer;
 }
 
 input[type="checkbox"],
@@ -378,14 +378,36 @@ body {
   height:100%;
 }
 
+@import url('/ostrich-sans.css');
+
 body {
-  background: #000;
-  color: #333;
+  background: #503092;
+  color: #FFF;
   overflow: hidden;
   cursor: pointer;
   display:table;
   margin:0 auto;
 }
+
+h1{font-size: 4em; margin-bottom:0px;
+  font-family: 'Ostrich Sans', 'Georgia', serif; 
+  font-style: italic;
+  font-weight: heavy;
+  display: block;
+  width:2048px;
+  margin-left:-128px;
+  padding-left:128px;
+  background:#000;
+  ;}
+
+h2{
+  margin-top:0px;
+  font-size:2em;
+  font-family: 'Ostrich Sans', 'Georgia', serif; 
+  font-style: normal;
+  font-weight: lighter;
+
+  ;}
 
 .container{
   height:100%;
@@ -393,6 +415,7 @@ body {
   display: block;
   position:relative;
   margin:0px auto;
+  margin-top:65px;
 }
 
 @-webkit-keyframes glow {  
@@ -405,13 +428,15 @@ body {
   50% { background-color:  rgba(255,255,255,0.15); }
 }
 
+.round{border: -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;
+  overflow: hidden;}
 
 a.sendVideo {
   z-index: 1;
   position: absolute;
   display:block;
-  overflow:hidden;
   background-color: rgba(255,255,255,0.1);
+  overflow: hidden;
 }
 
 a.sendVideo{
@@ -448,6 +473,7 @@ video{
   position:absolute;
   top:0px;
   margin:0 auto;
+  
 }
 
 video.hidden {
@@ -469,7 +495,7 @@ video.hidden {
 #spotDisplay a{
   height:30px;
   /*width:30px;*/
-  margin:10px;
+  margin:5px;
   line-height: 30px; 
   text-align: center;
   background:rgba(255,255,255,0.3);
@@ -499,13 +525,15 @@ video.hidden {
 }
 
 .game{
-   background:#fff;
+   background:rgba(255,255,255,0.3);
   display: table-cell;
   width:250px;
-  height:250px;
+  height:160px;
   margin:15px;
   float:left;
   vertical-align: middle;
+  line-height: 160px;
   border: -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;
+  overflow: hidden;
 
 }

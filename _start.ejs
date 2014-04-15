@@ -90,9 +90,8 @@ function video_play(to_id){
 	if (cur_id != to_id){
 		nxt.classList.remove('hidden'); 
 		nxt.classList.add('visible');
-		if (!nxt.hasAttribute('playnext')){
-			nxt.setAttribute("loop","true");
-		}
+		nxt.setAttribute("loop","true");
+		
 
 		cur.classList.add('hidden');
 		cur.classList.remove('visible'); // for use with selectors
@@ -100,7 +99,7 @@ function video_play(to_id){
 		cur.load(); // reset to timecount 0
 		}
 		if (cur.hasAttribute("loop"))
-			{cur.removeAttribute("loop");}		
+			{cur.removeAttribute("loop");}	
 
 		if(nxt.nodeName=='VIDEO'){
 			nxt.play();
@@ -125,11 +124,11 @@ function loadvideos(load){
           var name2 = str.substr(0, str.lastIndexOf('.')) || str;
           console.log('load element '+str);
           if (ext=='webm'||ext=='mp4') {
-            var frame ="<video class='hidden round' id=" + game[i].urls.index +" poster="+ game[i].urls.controls_thumb +">"+
+            var frame ="<video class='hidden' id=" + game[i].urls.index +" poster="+ game[i].urls.controls_thumb +">"+
             "<source src='"+ name2 +".ipad.mp4' type='video/mp4'/>"+
             "<source src='"+ name2 +".webm' type='video/webm'/>"+
                 "Your browser does not support the video tag."+
-                "</video><br />";
+                "</video>";
                 $('#videobox').append(frame);
               }
               else{
@@ -143,6 +142,7 @@ function loadvideos(load){
         var playFirst = document.getElementsByClassName('visible')[0];
         if(playFirst.nodeName=='VIDEO'){
           playFirst.play();
+          $('.visible').attr('loop','true');
         }
   })
 }
@@ -168,6 +168,7 @@ splashload(url);
 	<h2>Choose your game</h2>
 	<ul id='games'>
 	</ul>
+
 </div>
 </div>
 
@@ -189,7 +190,7 @@ $.getJSON('/tmp/gamedata.json', function(data){
 		message('game ' + gameID );
 		socket.emit('load', gameID);
 
-		$('.container').html("<div id='controlSpots'></div><div id='videobox'></div><div id='spotDisplay'><a>Return To Menu</a></div>");	
+		$('.container').html("<div id='controlSpots'></div><div id='videobox'></div><div id='spotDisplay'><a>Menu</a></div>");	
 	
 		load_spots(gameID, gamedata,0);
 		loadvideos(gameID);

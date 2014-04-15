@@ -428,8 +428,11 @@ h2{
   50% { background-color:  rgba(255,255,255,0.15); }
 }
 
-.round{border: -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;
-  overflow: hidden;}
+.round{
+  border: -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;
+  overflow: hidden;
+  z-index:1;
+}
 
 a.sendVideo {
   z-index: 1;
@@ -485,23 +488,30 @@ video.hidden {
 #spotDisplay{  
   z-index:1; 
   position: absolute;
-  top:600px;
+  top:-60px;
   left:0px;
   text-align: center;
   display: block;
   padding:5px;
+  font-family: 'Ostrich Sans', 'Georgia', serif; 
+  font-weight: 600;
+  letter-spacing:2px;
+  font-size: 2em;
+  line-height: 2.5em;
+  font-style: italic;
+  color:#000;
 }
 
 #spotDisplay a{
   height:30px;
-  /*width:30px;*/
   margin:5px;
+  margin-bottom: 10px;
   line-height: 30px; 
   text-align: center;
   background:rgba(255,255,255,0.3);
   border: -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;
   display: block;
-  padding:5px;
+  padding:5px 10px;
 }
 
 #spotDisplay a:hover{
@@ -535,5 +545,8 @@ video.hidden {
   line-height: 160px;
   border: -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;
   overflow: hidden;
-
 }
+
+.game:hover{
+  background:rgba(255,255,255,0.6);
+};

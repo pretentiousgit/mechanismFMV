@@ -1,0 +1,3531 @@
+{
+    "games": {
+        "Grimoire": [
+            {
+                "0": {
+                    "name": "ZERO_TITLE",
+                    "exits": [
+                        {
+                            "room": "6",
+                            "top": 70,
+                            "left": 50,
+                            "width": 582,
+                            "height": 378
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/Grimoire/Room0_Control.png",
+                        "control_thumb": "/video/Grimoire/Room0_Control.png",
+                        "client": "/video/Grimoire/Title.webmhd.webm",
+                        "client_thumb": "/video/Grimoire/Title.Still001.png",
+                        "": "Save Changes",
+                        "index": "0"
+                    }
+                },
+                "1": {
+                    "name": "DAY1",
+                    "exits": [
+                        {
+                            "room": "2",
+                            "width": 40,
+                            "height": 404,
+                            "top": 32,
+                            "left": 580
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/Grimoire/Day1.png",
+                        "control_thumb": "/video/Grimoire/Day1.png",
+                        "client": "/video/Grimoire/Day_1.webmhd.webm",
+                        "client_thumb": "/video/Grimoire/Day%201.Still001.png",
+                        "": "Save Changes",
+                        "index": "1"
+                    }
+                },
+                "2": {
+                    "name": "DAY2",
+                    "exits": [
+                        {
+                            "room": "3",
+                            "width": 41,
+                            "height": 421,
+                            "top": 28,
+                            "left": 594
+                        },
+                        {
+                            "room": "1",
+                            "top": 26,
+                            "left": 12,
+                            "width": 51,
+                            "height": 421
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/Grimoire/Day2.png",
+                        "control_thumb": "/video/Grimoire/Day2.png",
+                        "client": "/video/Grimoire/Day_2.webmhd.webm",
+                        "client_thumb": "/video/Grimoire/Day%202.Still001.png",
+                        "": "Save Changes",
+                        "index": "2"
+                    }
+                },
+                "3": {
+                    "name": "DAY3",
+                    "exits": [
+                        {
+                            "room": "4",
+                            "width": 52,
+                            "height": 434,
+                            "top": 13,
+                            "left": 577
+                        },
+                        {
+                            "room": "2",
+                            "top": 4,
+                            "left": 9,
+                            "width": 44,
+                            "height": 454
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/Grimoire/Day3.png",
+                        "control_thumb": "/video/Grimoire/Day3.png",
+                        "client": "/video/Grimoire/Day_3.webmhd.webm",
+                        "client_thumb": "/video/Grimoire/Day%203.Still001.png",
+                        "": "Save Changes",
+                        "index": "3"
+                    }
+                },
+                "4": {
+                    "name": "DAY4",
+                    "exits": [
+                        {
+                            "room": "5",
+                            "width": 47,
+                            "height": 470,
+                            "top": 5,
+                            "left": 579
+                        },
+                        {
+                            "room": "3",
+                            "top": 7,
+                            "left": 10,
+                            "width": 36,
+                            "height": 464
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/Grimoire/Day4.png",
+                        "control_thumb": "/video/Grimoire/Day4.png",
+                        "client": "/video/Grimoire/Day%204.webmhd.webm",
+                        "client_thumb": "/video/Grimoire/Day%204.Still001.png",
+                        "": "Save Changes",
+                        "index": "4"
+                    }
+                },
+                "5": {
+                    "name": "END",
+                    "exits": [
+                        {
+                            "room": "0",
+                            "top": 85,
+                            "left": 149,
+                            "width": 345,
+                            "height": 326
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/Grimoire/EndScreen_Control.png",
+                        "control_thumb": "/video/Grimoire/EndScreen_Control.png",
+                        "client": "/video/Grimoire/END.webmhd.webm",
+                        "client_thumb": "/video/Grimoire/END.Still001.png",
+                        "": "Save Changes",
+                        "index": "5"
+                    }
+                },
+                "6": {
+                    "name": "INTRO",
+                    "exits": [
+                        {
+                            "room": "1",
+                            "top": 116,
+                            "left": 181,
+                            "width": 312,
+                            "height": 284
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/Grimoire/IntroControl.png",
+                        "control_thumb": "/video/Grimoire/IntroControl.png",
+                        "client": "/video/Grimoire/INTRO_v2.webmhd.webm",
+                        "client_thumb": "/video/Grimoire/INTRO.Still001.png",
+                        "": "Save Changes",
+                        "index": "6"
+                    }
+                }
+            }
+        ],
+        "PornGame": [
+            {
+                "0": {
+                    "name": "ROOM0_INTRO",
+                    "exits": [
+                        {
+                            "room": "1",
+                            "width": 685,
+                            "height": 180,
+                            "top": 120,
+                            "left": 175
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/PornGame/INTRO.png",
+                        "control_thumb": "/video/PornGame/ROOM0.png",
+                        "client": "/video/PornGame/ROOM0_MAIN.webmhd.webm",
+                        "client_thumb": "/video/PornGame/ROOM0MAIN.png",
+                        "": "Save Changes",
+                        "index": "0"
+                    }
+                },
+                "1": {
+                    "name": "ROOM1",
+                    "exits": [
+                        {
+                            "room": "5",
+                            "top": 14,
+                            "left": 0,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "3",
+                            "top": 14,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "7",
+                            "top": 397,
+                            "left": 1,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "4",
+                            "top": 397,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "6",
+                            "top": 205,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "5",
+                            "top": 205,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "2",
+                            "top": 14,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "2",
+                            "top": 397,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "7",
+                            "top": 205,
+                            "left": 0,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "0",
+                            "width": 340,
+                            "height": 190,
+                            "top": 14,
+                            "left": 0
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/PornGame/ROOM1_CONTROL.webmhd.webm",
+                        "control_thumb": "/video/PornGame/ROOM1.png",
+                        "client": "/video/PornGame/ROOM1_MAIN.webmhd.webm",
+                        "client_thumb": "/video/PornGame/ROOM1MAIN.png",
+                        "": "Save Changes",
+                        "index": "1"
+                    }
+                },
+                "2": {
+                    "name": "ROOM2_VG",
+                    "exits": [
+                        {
+                            "room": "8",
+                            "top": 205,
+                            "left": 1,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "8",
+                            "top": 14,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "10",
+                            "top": 205,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "8",
+                            "top": 14,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "10",
+                            "width": 340,
+                            "height": 190,
+                            "top": 205,
+                            "left": 680
+                        },
+                        {
+                            "room": "7",
+                            "top": 14,
+                            "left": 0,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "9",
+                            "top": 397,
+                            "left": 3,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "9",
+                            "top": 397,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "8",
+                            "top": 397,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/PornGame/ROOM2_CONTROL_VG.webmhd.webm",
+                        "control_thumb": "/video/PornGame/ROOM2.png",
+                        "client": "/video/PornGame/ROOM2_ROMANCE.webmhd.webm",
+                        "client_thumb": "/video/PornGame/ROOM2MAIN.png",
+                        "": "Save Changes",
+                        "index": "2"
+                    }
+                },
+                "3": {
+                    "name": "ROOM3_VB",
+                    "exits": [
+                        {
+                            "room": "9",
+                            "top": 205,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "9",
+                            "width": 340,
+                            "height": 190,
+                            "top": 397,
+                            "left": 0
+                        },
+                        {
+                            "room": "10",
+                            "width": 340,
+                            "height": 190,
+                            "top": 14,
+                            "left": 344
+                        },
+                        {
+                            "room": "8",
+                            "top": 205,
+                            "left": 2,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "8",
+                            "top": 205,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "10",
+                            "top": 3,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "7",
+                            "top": 14,
+                            "left": 0,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "9",
+                            "top": 397,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "9",
+                            "top": 397,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/PornGame/ROOM3_CONTROL_VB.webmhd.webm",
+                        "control_thumb": "/video/PornGame/ROOM3.png",
+                        "client": "/video/PornGame/ROOM3_MAIN_VB.webmhd.webm",
+                        "client_thumb": "/video/PornGame/ROOM3MAIN.png",
+                        "": "Save Changes",
+                        "index": "3"
+                    }
+                },
+                "4": {
+                    "name": "ROOM4_VN",
+                    "exits": [
+                        {
+                            "room": "10",
+                            "top": 205,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "7",
+                            "top": 205,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "10",
+                            "top": 397,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "10",
+                            "top": 397,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "10",
+                            "top": 397,
+                            "left": 0,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "8",
+                            "top": 5,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "8",
+                            "top": 205,
+                            "left": 2,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "9",
+                            "top": 14,
+                            "left": 0,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "9",
+                            "top": 5,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/PornGame/ROOM4_CONTROL_VN.webmhd.webm",
+                        "control_thumb": "/video/PornGame/ROOM4.png",
+                        "client": "/video/PornGame/ROOM4_MAIN_VN.webmhd.webm",
+                        "client_thumb": "/video/PornGame/ROOM4MAIN.png",
+                        "": "Save Changes",
+                        "index": "4"
+                    }
+                },
+                "5": {
+                    "name": "ROOM5_KG",
+                    "exits": [
+                        {
+                            "room": "11",
+                            "top": 14,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "12",
+                            "top": 205,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "11",
+                            "top": 397,
+                            "left": 0,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "13",
+                            "top": 14,
+                            "left": 0,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "12",
+                            "top": 397,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "10",
+                            "top": 14,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "10",
+                            "top": 205,
+                            "left": 1,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "8",
+                            "top": 205,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "8",
+                            "top": 397,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/PornGame/ROOM5_CONTROL_KG.webmhd.webm",
+                        "control_thumb": "/video/PornGame/ROOM5.png",
+                        "client": "/video/PornGame/ROOM5_MAIN.webmhd.webm",
+                        "client_thumb": "/video/PornGame/ROOM5MAIN.png",
+                        "": "Save Changes",
+                        "index": "5"
+                    }
+                },
+                "6": {
+                    "name": "ROOM6_KB",
+                    "exits": [
+                        {
+                            "room": "13",
+                            "top": 14,
+                            "left": 0,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "8",
+                            "top": 14,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "12",
+                            "top": 397,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "11",
+                            "top": 205,
+                            "left": 0,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "13",
+                            "top": 14,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "12",
+                            "top": 205,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "12",
+                            "top": 205,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "12",
+                            "top": 397,
+                            "left": 1,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "4",
+                            "top": 397,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/PornGame/ROOM6_CONTROL_KB_1.webmhd.webm",
+                        "control_thumb": "/video/PornGame/ROOM6.png",
+                        "client": "/video/PornGame/ROOM6_MAIN.webmhd.webm",
+                        "client_thumb": "/video/PornGame/ROOM6MAIN.png",
+                        "": "Save Changes",
+                        "index": "6"
+                    }
+                },
+                "7": {
+                    "name": "ROOM7_KN",
+                    "exits": [
+                        {
+                            "room": "13",
+                            "width": 340,
+                            "height": 190,
+                            "top": 205,
+                            "left": 2
+                        },
+                        {
+                            "room": "13",
+                            "top": 14,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "13",
+                            "top": 397,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "13",
+                            "top": 397,
+                            "left": 3,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "11",
+                            "top": 2,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "12",
+                            "top": 205,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "13",
+                            "top": 397,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "11",
+                            "top": 205,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "4",
+                            "top": 14,
+                            "left": 0,
+                            "width": 340,
+                            "height": 190
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/PornGame/ROOM7_CONTROL_KN_1.webmhd.webm",
+                        "control_thumb": "/video/PornGame/ROOM7.png",
+                        "client": "/video/PornGame/ROOM7_MAIN.webmhd.webm",
+                        "client_thumb": "/video/PornGame/ROOM7MAIN.png",
+                        "": "Save Changes",
+                        "index": "7"
+                    }
+                },
+                "8": {
+                    "name": "ROOM8_VG2",
+                    "exits": [
+                        {
+                            "room": "14",
+                            "top": 397,
+                            "left": 3,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "14",
+                            "top": 397,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "14",
+                            "top": 397,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "14",
+                            "top": 205,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "14",
+                            "top": 205,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "14",
+                            "top": 14,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "14",
+                            "top": 14,
+                            "left": 0,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "16",
+                            "top": 14,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "16",
+                            "top": 205,
+                            "left": 3,
+                            "width": 340,
+                            "height": 190
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/PornGame/ROOM8_CONTROL_GOOD.webmhd.webm",
+                        "control_thumb": "/video/PornGame/ROOM8.png",
+                        "client": "/video/PornGame/ROOM8_MAIN.webmhd.webm",
+                        "client_thumb": "/video/PornGame/ROOM8MAIN.png",
+                        "": "Save Changes",
+                        "index": "8"
+                    }
+                },
+                "9": {
+                    "name": "ROOM9_VB",
+                    "exits": [
+                        {
+                            "room": "14",
+                            "top": 14,
+                            "left": 0,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "14",
+                            "top": 14,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "14",
+                            "top": 397,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "14",
+                            "top": 14,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "14",
+                            "top": 205,
+                            "left": 2,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "16",
+                            "top": 205,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "16",
+                            "top": 205,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "16",
+                            "top": 397,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "16",
+                            "top": 397,
+                            "left": 2,
+                            "width": 340,
+                            "height": 190
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/PornGame/ROOM9_CONTROL_BAD.webmhd.webm",
+                        "control_thumb": "/video/PornGame/ROOM9.png",
+                        "client": "/video/PornGame/ROOM9_MAIN_BAD.webmhd.webm",
+                        "client_thumb": "/video/PornGame/ROOM9MAIN.png",
+                        "": "Save Changes",
+                        "index": "9"
+                    }
+                },
+                "10": {
+                    "name": "ROOM10_VN",
+                    "exits": [
+                        {
+                            "room": "14",
+                            "top": 205,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "14",
+                            "top": 14,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "16",
+                            "top": 14,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "16",
+                            "top": 205,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "16",
+                            "top": 397,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "16",
+                            "top": 397,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "16",
+                            "top": 397,
+                            "left": 1,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "16",
+                            "top": 205,
+                            "left": 2,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "16",
+                            "top": 14,
+                            "left": 0,
+                            "width": 340,
+                            "height": 190
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/PornGame/ROOM10_CONTROL_NEUTRAL.webmhd.webm",
+                        "control_thumb": "/video/PornGame/ROOM10.png",
+                        "client": "/video/PornGame/ROOM10_MAIN_NEUTRAL.webmhd.webm",
+                        "client_thumb": "/video/PornGame/ROOM10MAIN.png",
+                        "": "Save Changes",
+                        "index": "10"
+                    }
+                },
+                "11": {
+                    "name": "ROOM11_KG",
+                    "exits": [
+                        {
+                            "room": "15",
+                            "top": 205,
+                            "left": 1,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "15",
+                            "top": 397,
+                            "left": 2,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "15",
+                            "top": 14,
+                            "left": 0,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "15",
+                            "width": 340,
+                            "height": 190,
+                            "top": 14,
+                            "left": 344
+                        },
+                        {
+                            "room": "15",
+                            "top": 397,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "15",
+                            "width": 340,
+                            "height": 190,
+                            "top": 14,
+                            "left": 680
+                        },
+                        {
+                            "room": "15",
+                            "top": 205,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "17",
+                            "top": 205,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "17",
+                            "top": 397,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/PornGame/ROOM11_CONTROL_GOOD.webmhd.webm",
+                        "control_thumb": "/video/PornGame/ROOM11.png",
+                        "client": "/video/PornGame/ROOM11_MAIN.webmhd.webm",
+                        "client_thumb": "/video/PornGame/ROOM11MAIN.png",
+                        "": "Save Changes",
+                        "index": "11"
+                    }
+                },
+                "12": {
+                    "name": "ROOM12_KB",
+                    "exits": [
+                        {
+                            "room": "15",
+                            "width": 340,
+                            "height": 190,
+                            "top": 397,
+                            "left": 680
+                        },
+                        {
+                            "room": "15",
+                            "width": 340,
+                            "height": 190,
+                            "top": 14,
+                            "left": 2
+                        },
+                        {
+                            "room": "17",
+                            "top": 14,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "17",
+                            "top": 14,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "17",
+                            "top": 205,
+                            "left": 3,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "17",
+                            "top": 205,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "17",
+                            "top": 205,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "17",
+                            "top": 397,
+                            "left": 4,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "17",
+                            "top": 397,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/PornGame/ROOM12_CONTROL_BAD.webmhd.webm",
+                        "control_thumb": "/video/PornGame/ROOM12.png",
+                        "client": "/video/PornGame/ROOM12_MAIN_BAD.webmhd.webm",
+                        "client_thumb": "/video/PornGame/ROOM12MAIN.png",
+                        "": "Save Changes",
+                        "index": "12"
+                    }
+                },
+                "13": {
+                    "name": "ROOM13_KN",
+                    "exits": [
+                        {
+                            "room": "15",
+                            "top": 14,
+                            "left": 0,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "15",
+                            "top": 14,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "17",
+                            "top": 14,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "17",
+                            "top": 205,
+                            "left": 1,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "17",
+                            "top": 205,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "17",
+                            "top": 205,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "17",
+                            "top": 397,
+                            "left": 344,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "17",
+                            "top": 397,
+                            "left": 680,
+                            "width": 340,
+                            "height": 190
+                        },
+                        {
+                            "room": "17",
+                            "top": 397,
+                            "left": 2,
+                            "width": 340,
+                            "height": 190
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/PornGame/ROOM13_CONTROL_NEUTRAL.webmhd.webm",
+                        "control_thumb": "/video/PornGame/ROOM13.png",
+                        "client": "/video/PornGame/ROOM13_MAIN_NEUTRAL.webmhd.webm",
+                        "client_thumb": "/video/PornGame/ROOM13MAIN.png",
+                        "": "Save Changes",
+                        "index": "13"
+                    }
+                },
+                "14": {
+                    "name": "ROMANCE_WINNER",
+                    "exits": [{
+                            "room": "0",
+                            "top": 1800,
+                            "left": 0,
+                            "width": 1024,
+                            "height": 250
+                        }],
+                    "urls": {
+                        "control": "/video/PornGame/ROMANCE_FINAL.webmhd.webm",
+                        "control_thumb": "/video/PornGame/FINALROMANCETHUMB.png",
+                        "client": "/video/PornGame/ROMANCE_FINAL.webmhd.webm",
+                        "client_thumb": "/video/PornGame/FINALROMANCETHUMB.png",
+                        "": "Save Changes",
+                        "index": "14"
+                    }
+                },
+                "15": {
+                    "name": "BONDAGE_WINNER",
+                    "exits": [{
+                            "room": "0",
+                            "top": 180,
+                            "left": 0,
+                            "width": 1024,
+                            "height": 250
+                        }],
+                    "urls": {
+                        "control": "/video/PornGame/BONDAGE_FINAL.webmhd.webm",
+                        "control_thumb": "/video/PornGame/FINALBONDAGETHUMB.png",
+                        "client": "/video/PornGame/BONDAGE_FINAL.webmhd.webm",
+                        "client_thumb": "/video/PornGame/FINALBONDAGETHUMB.png",
+                        "": "Save Changes",
+                        "index": "15"
+                    }
+                },
+                "16": {
+                    "name": "ROMANCE_LOSER",
+                    "exits": [
+                        {
+                            "room": "0",
+                            "top": 180,
+                            "left": 0,
+                            "width": 1024,
+                            "height": 250
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/PornGame/FINAL_FAIL_VANILLA.webmhd.webm",
+                        "control_thumb": "/video/PornGame/ROMANCE_LOSER.png",
+                        "client": "/video/PornGame/FINAL_FAIL_VANILLA.webmhd.webm",
+                        "client_thumb": "/video/PornGame/ROMANCE_LOSER.png",
+                        "": "Save Changes",
+                        "index": "16"
+                    }
+                },
+                "17": {
+                    "name": "BONDAGE_LOSER",
+                    "exits": [
+                        {
+                            "room": "0",
+                            "top": 180,
+                            "left": 0,
+                            "width": 1024,
+                            "height": 250
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/PornGame/FINAL_FAIL_BONDAGE.webmhd.webm",
+                        "control_thumb": "/video/PornGame/ROMANCE_LOSER.png",
+                        "client": "/video/PornGame/FINAL_FAIL_BONDAGE.webmhd.webm",
+                        "client_thumb": "/video/PornGame/ROMANCE_LOSER.png",
+                        "": "Save Changes",
+                        "index": "17"
+                    }
+                }
+            }
+        ],
+        "psXXYborg": [
+            {
+                "0": {
+                    "name": "1",
+                    "exits": [
+                        {
+                            "room": "1",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/1A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/1B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "0"
+                    }
+                },
+                "1": {
+                    "name": "2",
+                    "exits": [
+                        {
+                            "room": "2",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/2A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/2B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "1"
+                    }
+                },
+                "2": {
+                    "name": "3",
+                    "exits": [
+                        {
+                            "room": "3",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/3A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/3B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "2"
+                    }
+                },
+                "3": {
+                    "name": "4",
+                    "exits": [
+                        {
+                            "room": "4",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/4A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/4B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "3"
+                    }
+                },
+                "4": {
+                    "name": "5",
+                    "exits": [
+                        {
+                            "room": "5",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/5A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/5B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "4"
+                    }
+                },
+                "5": {
+                    "name": "6",
+                    "exits": [
+                        {
+                            "room": "6",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/6A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/6B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "5"
+                    }
+                },
+                "6": {
+                    "name": "7",
+                    "exits": [
+                        {
+                            "room": "7",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/7A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/7B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "6"
+                    }
+                },
+                "7": {
+                    "name": "8",
+                    "exits": [
+                        {
+                            "room": "8",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/8A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/8B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "7"
+                    }
+                },
+                "8": {
+                    "name": "9",
+                    "exits": [
+                        {
+                            "room": "9",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/9A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/9B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "8"
+                    }
+                },
+                "9": {
+                    "name": "10",
+                    "exits": [
+                        {
+                            "room": "10",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/10A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/10B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "9"
+                    }
+                },
+                "10": {
+                    "name": "11",
+                    "exits": [
+                        {
+                            "room": "11",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/11A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/11B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "10"
+                    }
+                },
+                "11": {
+                    "name": "12",
+                    "exits": [
+                        {
+                            "room": "12",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/12A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/12B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "11"
+                    }
+                },
+                "12": {
+                    "name": "13",
+                    "exits": [
+                        {
+                            "room": "13",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/13A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/13B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "12"
+                    }
+                },
+                "13": {
+                    "name": "14",
+                    "exits": [
+                        {
+                            "room": "14",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/14A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/14B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "13"
+                    }
+                },
+                "14": {
+                    "name": "15",
+                    "exits": [
+                        {
+                            "room": "15",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/15A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/15B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "14"
+                    }
+                },
+                "15": {
+                    "name": "16",
+                    "exits": [
+                        {
+                            "room": "16",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/16A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/16B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "15"
+                    }
+                },
+                "16": {
+                    "name": "17",
+                    "exits": [
+                        {
+                            "room": "17",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/17A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/17B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "16"
+                    }
+                },
+                "17": {
+                    "name": "18",
+                    "exits": [
+                        {
+                            "room": "18",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/18A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/18B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "17"
+                    }
+                },
+                "18": {
+                    "name": "19",
+                    "exits": [
+                        {
+                            "room": "19",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/19A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/19B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "18"
+                    }
+                },
+                "19": {
+                    "name": "20",
+                    "exits": [
+                        {
+                            "room": "20",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/20A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/20B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "19"
+                    }
+                },
+                "20": {
+                    "name": "21",
+                    "exits": [
+                        {
+                            "room": "21",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/21A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/21B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "20"
+                    }
+                },
+                "21": {
+                    "name": "22",
+                    "exits": [
+                        {
+                            "room": "22",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/22A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/22B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "21"
+                    }
+                },
+                "22": {
+                    "name": "23",
+                    "exits": [
+                        {
+                            "room": "23",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/23A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/23B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "22"
+                    }
+                },
+                "23": {
+                    "name": "24",
+                    "exits": [
+                        {
+                            "room": "24",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/24A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/24B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "23"
+                    }
+                },
+                "24": {
+                    "name": "25",
+                    "exits": [
+                        {
+                            "room": "25",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/25A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/25B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "24"
+                    }
+                },
+                "25": {
+                    "name": "26",
+                    "exits": [
+                        {
+                            "room": "26",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/26A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/26B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "25"
+                    }
+                },
+                "26": {
+                    "name": "27",
+                    "exits": [
+                        {
+                            "room": "27",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/27A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/27B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "26"
+                    }
+                },
+                "27": {
+                    "name": "28",
+                    "exits": [
+                        {
+                            "room": "28",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/28A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/28B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "27"
+                    }
+                },
+                "28": {
+                    "name": "29",
+                    "exits": [
+                        {
+                            "room": "29",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/29A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/29B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "28"
+                    }
+                },
+                "29": {
+                    "name": "30",
+                    "exits": [
+                        {
+                            "room": "30",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/30A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/30B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "29"
+                    }
+                },
+                "30": {
+                    "name": "31",
+                    "exits": [
+                        {
+                            "room": "31",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/31A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/31B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "30"
+                    }
+                },
+                "31": {
+                    "name": "32",
+                    "exits": [
+                        {
+                            "room": "32",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/32A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/32B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "31"
+                    }
+                },
+                "32": {
+                    "name": "33",
+                    "exits": [
+                        {
+                            "room": "33",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/33A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/33B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "32"
+                    }
+                },
+                "33": {
+                    "name": "34",
+                    "exits": [
+                        {
+                            "room": "34",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/34A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/34B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "33"
+                    }
+                },
+                "34": {
+                    "name": "35",
+                    "exits": [
+                        {
+                            "room": "35",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/35A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/35B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "34"
+                    }
+                },
+                "35": {
+                    "name": "36",
+                    "exits": [
+                        {
+                            "room": "36",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/36A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/36B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "35"
+                    }
+                },
+                "36": {
+                    "name": "37",
+                    "exits": [
+                        {
+                            "room": "37",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/37A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/37B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "36"
+                    }
+                },
+                "37": {
+                    "name": "38",
+                    "exits": [
+                        {
+                            "room": "38",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/38A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/38B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "37"
+                    }
+                },
+                "38": {
+                    "name": "39",
+                    "exits": [
+                        {
+                            "room": "39",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/39A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/39B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "38"
+                    }
+                },
+                "39": {
+                    "name": "40",
+                    "exits": [
+                        {
+                            "room": "40",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/40A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/40B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "39"
+                    }
+                },
+                "40": {
+                    "name": "41",
+                    "exits": [
+                        {
+                            "room": "41",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/41A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/41B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "40"
+                    }
+                },
+                "41": {
+                    "name": "42",
+                    "exits": [
+                        {
+                            "room": "42",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/42A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/42B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "41"
+                    }
+                },
+                "42": {
+                    "name": "43",
+                    "exits": [
+                        {
+                            "room": "43",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/43A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/43B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "42"
+                    }
+                },
+                "43": {
+                    "name": "44",
+                    "exits": [
+                        {
+                            "room": "44",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/44A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/44B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "43"
+                    }
+                },
+                "44": {
+                    "name": "45",
+                    "exits": [
+                        {
+                            "room": "0",
+                            "top": 0,
+                            "left": 112,
+                            "width": 800,
+                            "height": 600
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/psXXYborg/45A.webm",
+                        "control_thumb": "",
+                        "client": "/video/psXXYborg/45B.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "44"
+                    }
+                }
+            }
+        ],
+        "Omm": [
+            {
+                "0": {
+                    "name": "TITLE",
+                    "exits": [
+                        {
+                            "room": "2",
+                            "width": 360,
+                            "height": 150,
+                            "top": 400,
+                            "left": 575
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/title-controller.webmhd.webm",
+                        "control_thumb": "/video/OMM/title-still-noaudio.png",
+                        "client": "/video/OMM/title.webmhd.webm",
+                        "client_thumb": "/video/OMM/title-still.png",
+                        "": "Save Changes",
+                        "index": "0"
+                    }
+                },
+                "1": {
+                    "name": "Act 1 - Slow/Slow",
+                    "exits": [
+                        {
+                            "room": "16",
+                            "top": 420,
+                            "left": 7,
+                            "width": 150,
+                            "height": 150
+                        },
+                        {
+                            "room": "2",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 860
+                        },
+                        {
+                            "room": "6",
+                            "top": 520,
+                            "left": 386,
+                            "width": 243,
+                            "height": 70
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/Act%201%20-%20INT%20-%20SS_btns.webmhd.webm",
+                        "control_thumb": "/video/OMM/Act%201%20-%20INT%20-%20SS.Still001.png",
+                        "client": "/video/OMM/Act%201%20-%20VIS%20-%20SS_sound.webmhd.webm",
+                        "client_thumb": "/video/OMM/Act%201%20-%20VIS%20-%20SS.Still001.png",
+                        "": "Save Changes",
+                        "index": "1"
+                    }
+                },
+                "2": {
+                    "name": "Act 1 - Slow/Fast",
+                    "exits": [
+                        {
+                            "room": "3",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 15
+                        },
+                        {
+                            "room": "1",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 860
+                        },
+                        {
+                            "room": "5",
+                            "width": 243,
+                            "height": 70,
+                            "top": 520,
+                            "left": 386
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/Act%201%20-%20INT%20-%20SF_btns.webmhd.webm",
+                        "control_thumb": "/video/OMM/Act%201%20-%20INT%20-%20SF.Still001.png",
+                        "client": "/video/OMM/Act%201%20-%20VIS%20-%20SF_sound.webmhd.webm",
+                        "client_thumb": "/video/OMM/Act%201%20-%20VIS%20-%20SF.Still001.png",
+                        "": "Save Changes",
+                        "index": "2"
+                    }
+                },
+                "3": {
+                    "name": "Act 1 - Fast/Fast",
+                    "exits": [
+                        {
+                            "room": "2",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 15
+                        },
+                        {
+                            "room": "16",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 860
+                        },
+                        {
+                            "room": "7",
+                            "width": 243,
+                            "height": 70,
+                            "top": 520,
+                            "left": 386
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/Act%201%20-%20INT%20-%20FF.webmhd.webm",
+                        "control_thumb": "/video/OMM/Act%201%20-%20INT%20-%20FF.Still001.png",
+                        "client": "/video/OMM/Act%201%20-%20VIS%20-%20FF_sound.webmhd.webm",
+                        "client_thumb": "/video/OMM/Act%201%20-%20VIS%20-%20FF.Still001.png",
+                        "": "Save Changes",
+                        "index": "3"
+                    }
+                },
+                "4": {
+                    "name": "Act 2 - Fast/Slow",
+                    "exits": [
+                        {
+                            "room": "6",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 15
+                        },
+                        {
+                            "room": "7",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 860
+                        },
+                        {
+                            "room": "8",
+                            "width": 243,
+                            "height": 70,
+                            "top": 520,
+                            "left": 386
+                        },
+                        {
+                            "room": "16",
+                            "width": 243,
+                            "height": 70,
+                            "top": 15,
+                            "left": 386
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/Act%202%20-%20INT%20-%20FS_btns.webmhd.webm",
+                        "control_thumb": "/video/OMM/Act%202%20-%20INT%20-%20FS.Still001.png",
+                        "client": "/video/OMM/Act%202%20-%20VIS%20-%20FS_sound.webmhd.webm",
+                        "client_thumb": "/video/OMM/Act%202%20-%20VIS%20-%20FS.Still001.png",
+                        "": "Save Changes",
+                        "index": "4"
+                    }
+                },
+                "5": {
+                    "name": "Act 2 - Slow/Fast",
+                    "exits": [
+                        {
+                            "room": "7",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 15
+                        },
+                        {
+                            "room": "6",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 860
+                        },
+                        {
+                            "room": "9",
+                            "width": 243,
+                            "height": 70,
+                            "top": 520,
+                            "left": 386
+                        },
+                        {
+                            "room": "2",
+                            "width": 243,
+                            "height": 70,
+                            "top": 15,
+                            "left": 386
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/Act%202%20-%20INT%20-%20SF_btns.webmhd.webm",
+                        "control_thumb": "/video/OMM/Act%202%20-%20INT%20-%20SF.Still001.png",
+                        "client": "/video/OMM/Act%202%20-%20VIS%20-%20SF_sound.webmhd.webm",
+                        "client_thumb": "/video/OMM/Act%202%20-%20VIS%20-%20SF.Still001.png",
+                        "": "Save Changes",
+                        "index": "5"
+                    }
+                },
+                "6": {
+                    "name": "Act 2 - Slow/Slow",
+                    "exits": [
+                        {
+                            "room": "4",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 15
+                        },
+                        {
+                            "room": "5",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 860
+                        },
+                        {
+                            "room": "10",
+                            "width": 243,
+                            "height": 70,
+                            "top": 520,
+                            "left": 386
+                        },
+                        {
+                            "room": "1",
+                            "width": 243,
+                            "height": 70,
+                            "top": 15,
+                            "left": 386
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/Act%202%20-%20INT%20-%20SS_btns.webmhd.webm",
+                        "control_thumb": "/video/OMM/Act%202%20-%20INT%20-%20SS.Still001.png",
+                        "client": "/video/OMM/Act%202%20-%20VIS%20-%20SS_sound.webmhd.webm",
+                        "client_thumb": "/video/OMM/Act%202%20-%20VIS%20-%20SS.Still001.png",
+                        "": "Save Changes",
+                        "index": "6"
+                    }
+                },
+                "7": {
+                    "name": "Act 2 - Fast/Fast",
+                    "exits": [
+                        {
+                            "room": "5",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 15
+                        },
+                        {
+                            "room": "4",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 860
+                        },
+                        {
+                            "room": "3",
+                            "width": 243,
+                            "height": 70,
+                            "top": 15,
+                            "left": 386
+                        },
+                        {
+                            "room": "11",
+                            "width": 243,
+                            "height": 70,
+                            "top": 520,
+                            "left": 386
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/Act%202%20-%20INT%20-%20FF_btns.webmhd.webm",
+                        "control_thumb": "/video/OMM/Act%202%20-%20INT%20-%20FF.Still001.png",
+                        "client": "/video/OMM/Act%202%20-%20VIS%20-%20FF_sound.webmhd.webm",
+                        "client_thumb": "/video/OMM/Act%202%20-%20VIS%20-%20FF.Still001.png",
+                        "": "Save Changes",
+                        "index": "7"
+                    }
+                },
+                "8": {
+                    "name": "Act 3 - Fast/Slow",
+                    "exits": [
+                        {
+                            "room": "10",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 15
+                        },
+                        {
+                            "room": "11",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 860
+                        },
+                        {
+                            "room": "13",
+                            "width": 243,
+                            "height": 70,
+                            "top": 520,
+                            "left": 386
+                        },
+                        {
+                            "room": "4",
+                            "width": 243,
+                            "height": 70,
+                            "top": 15,
+                            "left": 386
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/Act%203%20-%20INT%20-%20FS_btns.webmhd.webm",
+                        "control_thumb": "/video/OMM/Act%203%20-%20INT%20-%20FS.Still001.png",
+                        "client": "/video/OMM/Act%203%20-%20VIS%20-%20FS_sound.webmhd.webm",
+                        "client_thumb": "/video/OMM/Act%203%20-%20VIS%20-%20FS.Still001.png",
+                        "": "Save Changes",
+                        "index": "8"
+                    }
+                },
+                "9": {
+                    "name": "Act 3 - Slow/Fast",
+                    "exits": [
+                        {
+                            "room": "11",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 15
+                        },
+                        {
+                            "room": "10",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 860
+                        },
+                        {
+                            "room": "12",
+                            "width": 243,
+                            "height": 70,
+                            "top": 520,
+                            "left": 386
+                        },
+                        {
+                            "room": "5",
+                            "width": 243,
+                            "height": 70,
+                            "top": 15,
+                            "left": 386
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/Act%203%20-%20INT%20-%20SF_btns.webmhd.webm",
+                        "control_thumb": "/video/OMM/Act%203%20-%20INT%20-%20SF.Still001.png",
+                        "client": "/video/OMM/Act%203%20-%20VIS%20-%20SF_sound.webmhd.webm",
+                        "client_thumb": "/video/OMM/Act%203%20-%20VIS%20-%20SF.Still001.png",
+                        "": "Save Changes",
+                        "index": "9"
+                    }
+                },
+                "10": {
+                    "name": "Act 3 - Slow/Slow",
+                    "exits": [
+                        {
+                            "room": "8",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 15
+                        },
+                        {
+                            "room": "9",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 860
+                        },
+                        {
+                            "room": "14",
+                            "width": 243,
+                            "height": 70,
+                            "top": 520,
+                            "left": 386
+                        },
+                        {
+                            "room": "6",
+                            "width": 243,
+                            "height": 70,
+                            "top": 15,
+                            "left": 386
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/Act%203%20-%20INT%20-%20SS_btns.webmhd.webm",
+                        "control_thumb": "/video/OMM/Act%203%20-%20INT%20-%20SS.Still001.png",
+                        "client": "/video/OMM/Act%203%20-%20VIS%20-%20SS_sound.webmhd.webm",
+                        "client_thumb": "/video/OMM/Act%203%20-%20VIS%20-%20SS.Still001.png",
+                        "": "Save Changes",
+                        "index": "10"
+                    }
+                },
+                "11": {
+                    "name": "Act 3 - Fast/Fast",
+                    "exits": [
+                        {
+                            "room": "9",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 15
+                        },
+                        {
+                            "room": "8",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 860
+                        },
+                        {
+                            "room": "15",
+                            "width": 243,
+                            "height": 70,
+                            "top": 520,
+                            "left": 386
+                        },
+                        {
+                            "room": "7",
+                            "width": 243,
+                            "height": 70,
+                            "top": 15,
+                            "left": 386
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/Act%203%20-%20INT%20-%20FF_btns.webmhd.webm",
+                        "control_thumb": "/video/OMM/Act%203%20-%20INT%20-%20FF.Still001.png",
+                        "client": "/video/OMM/Act%203%20-%20VIS%20-%20FF_sound.webmhd.webm",
+                        "client_thumb": "/video/OMM/Act%203%20-%20VIS%20-%20FF.Still001.png",
+                        "": "Save Changes",
+                        "index": "11"
+                    }
+                },
+                "12": {
+                    "name": "Act 4 - Slow/Fast",
+                    "exits": [
+                        {
+                            "room": "15",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 15
+                        },
+                        {
+                            "room": "14",
+                            "top": 420,
+                            "left": 860,
+                            "width": 150,
+                            "height": 150
+                        },
+                        {
+                            "room": "9",
+                            "width": 243,
+                            "height": 70,
+                            "top": 15,
+                            "left": 386
+                        },
+                        {
+                            "room": "17",
+                            "width": 243,
+                            "height": 70,
+                            "top": 520,
+                            "left": 386
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/Act%204%20-%20INT%20-%20SF_btns.webmhd.webm",
+                        "control_thumb": "/video/OMM/Act%204%20-%20INT%20-%20SF.Still001.png",
+                        "client": "/video/OMM/Act%204%20-%20VIS%20-%20SF_sound.webmhd.webm",
+                        "client_thumb": "/video/OMM/Act%204%20-%20VIS%20-%20SF.Still001.png",
+                        "": "Save Changes",
+                        "index": "12"
+                    }
+                },
+                "13": {
+                    "name": "Act 4 - Fast/Slow",
+                    "exits": [
+                        {
+                            "room": "8",
+                            "width": 243,
+                            "height": 70,
+                            "top": 15,
+                            "left": 386
+                        },
+                        {
+                            "room": "14",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 15
+                        },
+                        {
+                            "room": "15",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 860
+                        },
+                        {
+                            "room": "17",
+                            "width": 243,
+                            "height": 70,
+                            "top": 520,
+                            "left": 386
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/Act%204%20-%20INT%20-%20FS_btns.webmhd.webm",
+                        "control_thumb": "/video/OMM/Act%204%20-%20INT%20-%20FS.Still001.png",
+                        "client": "/video/OMM/Act%204%20-%20VIS%20-%20FS_sound.webmhd.webm",
+                        "client_thumb": "/video/OMM/Act%204%20-%20VIS%20-%20FS.Still001.png",
+                        "": "Save Changes",
+                        "index": "13"
+                    }
+                },
+                "14": {
+                    "name": "Act 4 - Slow/Slow",
+                    "exits": [
+                        {
+                            "room": "10",
+                            "width": 243,
+                            "height": 70,
+                            "top": 15,
+                            "left": 386
+                        },
+                        {
+                            "room": "13",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 15
+                        },
+                        {
+                            "room": "12",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 860
+                        },
+                        {
+                            "room": "17",
+                            "width": 243,
+                            "height": 70,
+                            "top": 520,
+                            "left": 386
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/Act%204%20-%20INT%20-%20SS_btns.webmhd.webm",
+                        "control_thumb": "/video/OMM/Act%204%20-%20INT%20-%20SS.Still001.png",
+                        "client": "/video/OMM/Act%204%20-%20VIS%20-%20SS_sound.webmhd.webm",
+                        "client_thumb": "/video/OMM/Act%204%20-%20VIS%20-%20SS.Still001.png",
+                        "": "Save Changes",
+                        "index": "14"
+                    }
+                },
+                "15": {
+                    "name": "Act 4 - Fast/Fast",
+                    "exits": [
+                        {
+                            "room": "12",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 15
+                        },
+                        {
+                            "room": "13",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 860
+                        },
+                        {
+                            "room": "11",
+                            "width": 243,
+                            "height": 70,
+                            "top": 15,
+                            "left": 386
+                        },
+                        {
+                            "room": "17",
+                            "width": 243,
+                            "height": 70,
+                            "top": 520,
+                            "left": 386
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/Act%204%20-%20INT%20-%20FF_btns.webmhd.webm",
+                        "control_thumb": "/video/OMM/Act%204%20-%20INT%20-%20FF.Still001.png",
+                        "client": "/video/OMM/Act%204%20-%20VIS%20-%20FF_sound.webmhd.webm",
+                        "client_thumb": "/video/OMM/Act%204%20-%20VIS%20-%20FF.Still001.png",
+                        "": "Save Changes",
+                        "index": "15"
+                    }
+                },
+                "16": {
+                    "name": "Act 1 - Fast/Slow",
+                    "exits": [
+                        {
+                            "room": "1",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 15
+                        },
+                        {
+                            "room": "3",
+                            "width": 150,
+                            "height": 150,
+                            "top": 420,
+                            "left": 860
+                        },
+                        {
+                            "room": "4",
+                            "width": 243,
+                            "height": 70,
+                            "top": 520,
+                            "left": 386
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/Act%201%20-%20INT%20-%20FS_btns.webmhd.webm",
+                        "control_thumb": "/video/OMM/Act%201%20-%20INT%20-%20FS.Still001.png",
+                        "client": "/video/OMM/Act%201%20-%20VIS%20-%20FS_sound.webmhd.webm",
+                        "client_thumb": "/video/OMM/Act%201%20-%20VIS%20-%20FS.Still001.png",
+                        "": "Save Changes",
+                        "index": "16"
+                    }
+                },
+                "17": {
+                    "name": "END",
+                    "exits": [
+                        {
+                            "room": "0",
+                            "width": 650,
+                            "height": 420,
+                            "top": 130,
+                            "left": 100
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/OMM/end.png",
+                        "control_thumb": "/video/OMM/end.png",
+                        "client": "/video/OMM/black-screen.png",
+                        "client_thumb": "/video/OMM/black-screen.png",
+                        "": "Save Changes",
+                        "index": "17"
+                    }
+                }
+            }
+        ],
+        "corg": [
+            {
+                "0": {
+                    "name": "Home Screen",
+                    "exits": [
+                        {
+                            "room": "1",
+                            "top": 240,
+                            "left": 350,
+                            "width": 350,
+                            "height": 92
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/title%20sequence%20bottom.webmhd.webm",
+                        "control_thumb": "/video/corg/title%20screen%20bottom%20thumbnail.png",
+                        "client": "/video/corg/title%20sequence.webmhd.webm",
+                        "client_thumb": "/video/corg/Title%20sequence%20thumbnail.png",
+                        "": "Save Changes",
+                        "index": "0"
+                    }
+                },
+                "1": {
+                    "name": "C or G",
+                    "exits": [
+                        {
+                            "room": "3",
+                            "top": 250,
+                            "left": 135,
+                            "width": 345,
+                            "height": 100
+                        },
+                        {
+                            "room": "2",
+                            "top": 250,
+                            "left": 550,
+                            "width": 330,
+                            "height": 100
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/C%20or%20G%20bottom.webmhd.webm",
+                        "control_thumb": "/video/corg/C%20or%20G%20bottom%20thumbnail.png",
+                        "client": "/video/corg/C%20or%20G%20-%20top.webmhd.webm",
+                        "client_thumb": "/video/corg/C%20or%20G%20-%20top%20thumbnail.png",
+                        "": "Save Changes",
+                        "index": "1"
+                    }
+                },
+                "2": {
+                    "name": "G1",
+                    "exits": [
+                        {
+                            "room": "4",
+                            "top": 210,
+                            "left": 60,
+                            "width": 500,
+                            "height": 180
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/cyborg_continue.gif",
+                        "control_thumb": "/video/corg/cyborg_continue.gif",
+                        "client": "/video/corg/cyborg_continue.gif",
+                        "client_thumb": "/video/corg/cyborg_continue.gif",
+                        "": "Save Changes",
+                        "index": "2"
+                    }
+                },
+                "3": {
+                    "name": "c1a",
+                    "exits": [
+                        {
+                            "room": "4",
+                            "top": 210,
+                            "left": 60,
+                            "width": 500,
+                            "height": 180
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/cyborg_continue.gif",
+                        "control_thumb": "/video/corg/cyborg_continue.gif",
+                        "client": "/video/corg/c1a-top.webmhd.webm",
+                        "client_thumb": "/video/corg/c1a-top%20thumbnail.png",
+                        "": "Save Changes",
+                        "index": "3"
+                    }
+                },
+                "4": {
+                    "name": "c1b",
+                    "exits": [
+                        {
+                            "room": "6",
+                            "width": 350,
+                            "height": 230,
+                            "top": 42,
+                            "left": 510
+                        },
+                        {
+                            "room": "7",
+                            "width": 345,
+                            "height": 230,
+                            "top": 300,
+                            "left": 190
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/c1a-bottom.webmhd.webm",
+                        "control_thumb": "/video/corg/c1a-bottom.png",
+                        "client": "/video/corg/c1b-top.webmhd.webm",
+                        "client_thumb": "/video/corg/c1b-top%20thumbnail.png",
+                        "": "Save Changes",
+                        "index": "4"
+                    }
+                },
+                "5": {
+                    "name": "c2c",
+                    "exits": [
+                        {
+                            "room": "10",
+                            "top": 210,
+                            "left": 60,
+                            "width": 500,
+                            "height": 180
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/cyborg_continue.gif",
+                        "control_thumb": "/video/corg/cyborg_continue.gif",
+                        "client": "/video/corg/c2c%20top.webmhd.webm",
+                        "client_thumb": "/video/corg/c2c%20top.webmhd.webm",
+                        "": "Save Changes",
+                        "index": "5"
+                    }
+                },
+                "6": {
+                    "name": "c1c",
+                    "exits": [
+                        {
+                            "room": "7",
+                            "width": 345,
+                            "height": 230,
+                            "top": 249,
+                            "left": 75
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/goddess_continue.gif",
+                        "control_thumb": "/video/corg/goddess_continue.gif",
+                        "client": "/video/corg/c1b-top.webmhd.webm",
+                        "client_thumb": "/video/corg/c1b-top%20thumbnail.png",
+                        "": "Save Changes",
+                        "index": "6"
+                    }
+                },
+                "7": {
+                    "name": "c1d",
+                    "exits": [
+                        {
+                            "room": "9",
+                            "top": 210,
+                            "left": 60,
+                            "width": 500,
+                            "height": 180
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/cyborg_continue.gif",
+                        "control_thumb": "/video/corg/cyborg_continue.gif",
+                        "client": "/video/corg/c1c%20top.webmhd.webm",
+                        "client_thumb": "/video/corg/c1c-top%20%28whited%29%20thumbnail.png",
+                        "": "Save Changes",
+                        "index": "7"
+                    }
+                },
+                "8": {
+                    "name": "c2b",
+                    "exits": [
+                        {
+                            "room": "10",
+                            "top": 210,
+                            "left": 60,
+                            "width": 500,
+                            "height": 180
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/cyborg_continue.gif",
+                        "control_thumb": "/video/corg/cyborg_continue.gif",
+                        "client": "/video/corg/c2b%20top.webmhd.webm",
+                        "client_thumb": "/video/corg/c2b%20top%20thumbnail.png",
+                        "": "Save Changes",
+                        "index": "8"
+                    }
+                },
+                "9": {
+                    "name": "c2a - hover leg",
+                    "exits": [
+                        {
+                            "room": "8",
+                            "width": 345,
+                            "height": 230,
+                            "top": 40,
+                            "left": 355
+                        },
+                        {
+                            "room": "5",
+                            "width": 345,
+                            "height": 230,
+                            "top": 300,
+                            "left": 355
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/c2a%20bottom.webmhd.webm",
+                        "control_thumb": "/video/corg/c2a%20bottom%20thumbnail.png",
+                        "client": "/video/corg/c2a%20top.webmhd.webm",
+                        "client_thumb": "/video/corg/c2a%20top%20thumbnail.png",
+                        "": "Save Changes",
+                        "index": "9"
+                    }
+                },
+                "10": {
+                    "name": "c3a - cat",
+                    "exits": [
+                        {
+                            "room": "11",
+                            "top": 50,
+                            "left": 150,
+                            "width": 345,
+                            "height": 230
+                        },
+                        {
+                            "room": "13",
+                            "top": 300,
+                            "left": 515,
+                            "width": 345,
+                            "height": 230
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/c3b%20bottom.webmhd.webm",
+                        "control_thumb": "/video/corg/c3b%20bottom%20thumb.png",
+                        "client": "/video/corg/c3a%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "10"
+                    }
+                },
+                "11": {
+                    "name": "c3b",
+                    "exits": [
+                        {
+                            "room": "20",
+                            "top": 210,
+                            "left": 60,
+                            "width": 500,
+                            "height": 180
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/cyborg_continue.gif",
+                        "control_thumb": "/video/corg/cyborg_continue.gif",
+                        "client": "/video/corg/c3b%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "11"
+                    }
+                },
+                "12": {
+                    "name": "c5a - mortal man",
+                    "exits": [
+                        {
+                            "room": "14",
+                            "top": 45,
+                            "left": 150,
+                            "width": 345,
+                            "height": 230
+                        },
+                        {
+                            "room": "15",
+                            "top": 300,
+                            "left": 520,
+                            "width": 345,
+                            "height": 230
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/c5b%20bottom.webmhd.webm",
+                        "control_thumb": "/video/corg/c5a%20bottom%20thumb.png",
+                        "client": "/video/corg/c5a%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "12"
+                    }
+                },
+                "13": {
+                    "name": "c3c",
+                    "exits": [
+                        {
+                            "room": "20",
+                            "top": 210,
+                            "left": 60,
+                            "width": 500,
+                            "height": 180
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/cyborg_continue.gif",
+                        "control_thumb": "/video/corg/cyborg_continue.gif",
+                        "client": "/video/corg/c3c%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "13"
+                    }
+                },
+                "14": {
+                    "name": "c5b",
+                    "exits": [
+                        {
+                            "room": "16",
+                            "top": 210,
+                            "left": 60,
+                            "width": 500,
+                            "height": 180
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/cyborg_continue.gif",
+                        "control_thumb": "/video/corg/cyborg_continue.gif",
+                        "client": "/video/corg/c5b%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "14"
+                    }
+                },
+                "15": {
+                    "name": "c5c",
+                    "exits": [
+                        {
+                            "room": "16",
+                            "top": 210,
+                            "left": 60,
+                            "width": 500,
+                            "height": 180
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/cyborg_continue.gif",
+                        "control_thumb": "/video/corg/cyborg_continue.gif",
+                        "client": "/video/corg/c5c%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "15"
+                    }
+                },
+                "16": {
+                    "name": "c6a - recharge",
+                    "exits": [
+                        {
+                            "room": "17",
+                            "width": 345,
+                            "height": 230,
+                            "top": 50,
+                            "left": 160
+                        },
+                        {
+                            "room": "18",
+                            "width": 345,
+                            "height": 230,
+                            "top": 280,
+                            "left": 510
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/c6a%20bottom.webmhd.webm",
+                        "control_thumb": "/video/corg/c6a%20bottom.png",
+                        "client": "/video/corg/c6a%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "16"
+                    }
+                },
+                "17": {
+                    "name": "c6b",
+                    "exits": [
+                        {
+                            "room": "21",
+                            "top": 360,
+                            "left": 60,
+                            "width": 500,
+                            "height": 180
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/goddess_continue.gif",
+                        "control_thumb": "/video/corg/cyborg_continue.gif",
+                        "client": "/video/corg/c6b%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "17"
+                    }
+                },
+                "18": {
+                    "name": "c6c",
+                    "exits": [
+                        {
+                            "room": "21",
+                            "top": 360,
+                            "left": 60,
+                            "width": 500,
+                            "height": 180
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/goddess_continue.gif",
+                        "control_thumb": "/video/corg/cyborg_continue.gif",
+                        "client": "/video/corg/c6c%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "18"
+                    }
+                },
+                "19": {
+                    "name": "",
+                    "exits": [],
+                    "urls": {
+                        "control": "",
+                        "control_thumb": "",
+                        "client": "",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "19"
+                    }
+                },
+                "20": {
+                    "name": "c4a - videogame",
+                    "exits": [
+                        {
+                            "room": "12",
+                            "top": 210,
+                            "left": 60,
+                            "width": 500,
+                            "height": 180
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/cyborg_continue.gif",
+                        "control_thumb": "/video/corg/cyborg_continue.gif",
+                        "client": "/video/corg/c4a%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "20"
+                    }
+                },
+                "21": {
+                    "name": "c7a childhood",
+                    "exits": [
+                        {
+                            "room": "22",
+                            "width": 345,
+                            "height": 230,
+                            "top": 310,
+                            "left": 170
+                        },
+                        {
+                            "room": "23",
+                            "width": 345,
+                            "height": 230,
+                            "top": 40,
+                            "left": 515
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/c7b%20bottom.webmhd.webm",
+                        "control_thumb": "/video/corg/c7b%20bottom%20thumb.png",
+                        "client": "/video/corg/c7a.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "21"
+                    }
+                },
+                "22": {
+                    "name": "c7b",
+                    "exits": [
+                        {
+                            "room": "23",
+                            "top": 107,
+                            "left": 151,
+                            "width": 373,
+                            "height": 230
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/c7c%20bottom.webmhd.webm",
+                        "control_thumb": "/video/corg/c7c%20bottom%20thumb.png",
+                        "client": "/video/corg/c7b%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "22"
+                    }
+                },
+                "23": {
+                    "name": "c7c",
+                    "exits": [
+                        {
+                            "room": "24",
+                            "top": 360,
+                            "left": 60,
+                            "width": 500,
+                            "height": 180
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/goddess_continue.gif",
+                        "control_thumb": "/video/corg/cyborg_continue.gif",
+                        "client": "/video/corg/c7c%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "23"
+                    }
+                },
+                "24": {
+                    "name": "c8a parents",
+                    "exits": [
+                        {
+                            "room": "25",
+                            "width": 345,
+                            "height": 230,
+                            "top": 40,
+                            "left": 360
+                        },
+                        {
+                            "room": "26",
+                            "width": 345,
+                            "height": 230,
+                            "top": 250,
+                            "left": 360
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/c8a%20bottom.webmhd.webm",
+                        "control_thumb": "/video/corg/c8a%20bottom%20thumb.png",
+                        "client": "/video/corg/c8a%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "24"
+                    }
+                },
+                "25": {
+                    "name": "c8b",
+                    "exits": [
+                        {
+                            "room": "26",
+                            "top": 300,
+                            "left": 170,
+                            "width": 345,
+                            "height": 230
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/c8d%20bottom.webmhd.webm",
+                        "control_thumb": "/video/corg/c8d%20bottom%20thumb.png",
+                        "client": "/video/corg/c8b%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "25"
+                    }
+                },
+                "26": {
+                    "name": "c8c",
+                    "exits": [
+                        {
+                            "room": "28",
+                            "top": 360,
+                            "left": 60,
+                            "width": 500,
+                            "height": 180
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/goddess_continue.gif",
+                        "control_thumb": "/video/corg/cyborg_continue.gif",
+                        "client": "/video/corg/c8c%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "26"
+                    }
+                },
+                "27": {
+                    "name": "c9b",
+                    "exits": [
+                        {
+                            "room": "31",
+                            "top": 360,
+                            "left": 60,
+                            "width": 500,
+                            "height": 180
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/goddess_continue.gif",
+                        "control_thumb": "/video/corg/cyborg_continue.gif",
+                        "client": "/video/corg/c9b%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "27"
+                    }
+                },
+                "28": {
+                    "name": "c9a friends",
+                    "exits": [
+                        {
+                            "room": "27",
+                            "top": 300,
+                            "left": 170,
+                            "width": 345,
+                            "height": 230
+                        },
+                        {
+                            "room": "29",
+                            "top": 40,
+                            "left": 510,
+                            "width": 345,
+                            "height": 230
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/c9a%20bottom.webmhd.webm",
+                        "control_thumb": "/video/corg/c9a%20bottom%20thumb.png",
+                        "client": "/video/corg/c9a%20top.webmhd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "28"
+                    }
+                },
+                "29": {
+                    "name": "c9c",
+                    "exits": [
+                        {
+                            "room": "31",
+                            "top": 360,
+                            "left": 60,
+                            "width": 500,
+                            "height": 180
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/goddess_continue.gif",
+                        "control_thumb": "/video/corg/cyborg_continue.gif",
+                        "client": "/video/corg/c10b_top.webmsd.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "29"
+                    }
+                },
+                "30": {
+                    "name": "",
+                    "exits": [],
+                    "urls": {
+                        "control": "",
+                        "control_thumb": "",
+                        "client": "",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "30"
+                    }
+                },
+                "31": {
+                    "name": "10",
+                    "exits": [
+                        {
+                            "room": "0",
+                            "top": 375,
+                            "left": 145,
+                            "width": 400,
+                            "height": 230
+                        }
+                    ],
+                    "urls": {
+                        "control": "/video/corg/stars_playagain.gif",
+                        "control_thumb": "/video/corg/stars_playagain_thumb.png",
+                        "client": "/video/corg/cg10.webm",
+                        "client_thumb": "",
+                        "": "Save Changes",
+                        "index": "31"
+                    }
+                }
+            }
+        ]
+    }
+}

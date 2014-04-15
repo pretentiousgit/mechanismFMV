@@ -1,18 +1,7 @@
 <script>
 var curGame;
-socket.on('connect', function(e) {
-  //on connection, tell the server what kind of client you are. This is a listener.
-  socket.emit('listener', function (error) {
-    if (!error) return;
-    socket.disconnect();
-    $('#connection').trigger('disconnected');
-
-    message('Server thinks only one listener can be connected'); // debug message
-  });
-});
 
 // reveals a pre-loaded video and plays it. 
-// Calls liveTrace() because this is required for delayed touchpoints.
 function video_play(to_id){
   var cur = document.getElementsByClassName('visible')[0];
   var cur_id= cur.getAttribute('id');
@@ -93,6 +82,17 @@ function loadvideos(load){
 </div>
 
 <script>
+socket.on('connect', function(e) {
+  //on connection, tell the server what kind of client you are. This is a listener.
+  socket.emit('listener', function (error) {
+    if (!error) return;
+    socket.disconnect();
+    $('#connection').trigger('disconnected');
+
+    message('Server thinks only one listener can be connected'); // debug message
+  });
+});
+
 socket.on('control event', function(e) {
   // connection passes server's current video number to listener clients
     if (e){
@@ -103,6 +103,7 @@ socket.on('control event', function(e) {
 
 socket.on('load', function(e) {
   // connection passes which game to load to clients
+  
   if (e){
       loadvideos(e)
       } 

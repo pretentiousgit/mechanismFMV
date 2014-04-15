@@ -1,6 +1,6 @@
 # Mechanism
 
-This is a display face for the screenPerfect multi-screen FMV engine. It serves serves paired client-control video via a NodeJS server installation to Chrome on desktop, and Android 4.1+ devices. This will also work on iOS, in which case you will need to supply it with *.webm video.
+This is a display face for the screenPerfect (http://www.github.com/pretentiousgit/screenperfect-dev) multi-screen FMV engine. It serves serves paired client-control video via a NodeJS server installation to Chrome on desktop, and Android 4.1+ devices. This will also work on iOS, in which case you will need to supply it with *.webm video.
 
 ### Documentation
 

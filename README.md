@@ -13,3 +13,7 @@ Please go to http://www.github.com/jennie/iv and contribute to that instead. It'
 ### Possible Directions
 
 All anyone wants from this is to hook it to Vimeo. There's your next startup idea. Make a random awesome-video-selector for Vimeo.
+
+### Where's The Content?
+
+Protected by an academic research requirement, so you can't have it, but /tmp/gamedata.json probably has some things that will be useful to tell you how this works.
